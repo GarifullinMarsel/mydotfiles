@@ -1,0 +1,82 @@
+window {
+    margin: 5px;
+    border: 2px solid white;
+    background-color: rgb(34, 34, 34);
+    border-radius: 1px;
+    color: white;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+#input::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#input:focus {
+    outline: none;
+}
+
+#inner-box {
+    background-color: rgb(34, 34, 34);
+    border-radius: 1px;
+}
+
+#outer-box {
+    margin: 5px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 1px;
+}
+
+#text {
+    margin: 5px;
+    width: 100%;
+}
+
+#entry {
+    padding: 7px;
+    border-radius: 1px;
+}
+
+#entry:nth-child(odd) {
+    background-color: rgb(34, 34, 34);
+    transition: background-color 250ms;
+}
+
+#entry:nth-child(odd):selected {
+    background-color: rgb(114, 114, 114);
+    transition: background-color 250ms;
+}
+
+#entry:nth-child(even) {
+    background-color: rgb(54, 54, 54);
+    transition: background-color 250ms;
+}
+
+#entry:nth-child(even):selected {
+    background-color: rgb(114, 114, 114);
+    transition: background-color 250ms;
+}
+
+#text:nth-child(odd) {
+    transition: color 250ms;
+}
+
+#text:nth-child(odd):selected {
+    color: black;
+    transition: color 250ms;
+}
+
+#text:nth-child(even) {
+    transition: color 250ms;
+}
+
+#text:nth-child(even):selected {
+    color: black;
+    transition: color 250ms;
+}
